@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0a0a0a;
+  }
+  
+  header {
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .hero img
+  {
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+
+
+
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #070707;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  #about {
+    border-radius: 8px;
+    border: 2px solid rgb(11, 11, 11);
+    background-color:#b4997a;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black(14, 13, 13, 0.1);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color:white;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    instagram-icon
+    {
+        icon-size=5px;
+    }
+  }
